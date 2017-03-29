@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<!--原网址-->
+<!-- http://www.maindek.cc/study_list/holiday/fashion/about.html -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>PC响应式</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="keywords" content="Fashion Show Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design">
+<!-- 设置网页关键字，网站SEO用的 -->
+<script type="application/x-javascript">
+//`type="text/javascript"` 是比较老的写法
+//IETF 推荐的是 `type="application/javascript"`
+//实际上这两种没什么大区别，只是不同浏览器的支持不一样。
+ addEventListener("load", function(){
+   setTimeout(hideURLbar, 0); 
+}, false);
+
+   function hideURLbar(){
+    window.scrollTo(0,1); 
+    }
+  </script>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+ <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+<!---End-smoth-scrolling---->
+</head>
+<body>
+		<!--header-->
+			<div class="header">
+				<div class="container">
+					<div class="header-top">
+						<div class="logo">
+							<a>fashion <span>show</span></a>
+						</div>
+						<div class="top-menu">
+							<span class="menu"><img src="image/nav.png" alt=""> </span>
+							<ul style="overflow: hidden; display: none;">
+								<li><a>home</a></li>
+								<li><a  class="active">about</a></li>
+								<li><a >services</a></li>
+								<li><a >Models</a></li>
+								<li><a >typo</a></li>
+								<li><a >contact</a></li>
+							</ul>
+						</div>
+						 <!--script-nav-->
+						 <script>
+						 $("span.menu").click(function(){
+						 $(".top-menu ul").slideToggle("slow" , function(){
+						 });
+						 });
+						 </script>
+						<div class="clerfix"></div>
+					</div>
+				</div>
+			</div>
+		<!--header-->
+		<div class="gallery-cursual">
+
+		<!-- 轮播部分 用的响应式的轮播插件直接传参调用插件 
+			兼容所有浏览器
+支持响应式
+支持 CSS3 过度
+支持触摸事件
+支持 JSON 及自定义 JSON 格式
+支持进度条
+支持自定义事件
+支持延迟加载
+支持自适应高度
+		-->
+		<link href="css/owl.carousel.css" rel="stylesheet">
+		<script src="js/owl.carousel.js"></script>
+			<script>
+				$(document).ready(function() {
+//					调用方法
+					$("#owl-demo").owlCarousel({
+						items : 4,//幻灯片每页可见个数
+						lazyLoad : true,//	延迟加载
+						autoPlay : true,//自动播放，可选布尔值或整数，若使用整数，如 3000，
+						//表示 3 秒切换一次；若设置为 true，默认 5 秒切换一次
+//						pagination : false,//不显示分页
+					});
+				});
+			</script>
+	
+		<div id="owl-demo" class="owl-carousel text-center owl-theme" style="opacity: 1; display: block;">
+			<div class="owl-wrapper-outer">
+			<div class="owl-wrapper" style="width: 4400px; left: 0px; border :1px red solid; display: block; transform: translate3d(-1320px, 0px, 0px); transition: all 800ms ease;">
+			<div class="owl-item" style="width: 220px;border:1px yellow  solid;">
+			<div class="item">
+				<img class="lazyOwl" alt="name" src="image/b1.jpg" style="display: block;">
+			</div>
+			</div>
+			<div class="owl-item" style="width: 220px;"
+			><div class="item">
+				<img class="lazyOwl" alt="name" src="image/b2.jpg" style="display: block;">
+			</div>
+			</div>
+			<div class="owl-item" style="width: 220px;">
+			<div class="item">
+				<img class="lazyOwl" alt="name" src="image/b3.jpg" style="display: block;">
+			</div>
+			</div>
+			<div class="owl-item" style="width: 220px;">
+			<div class="item">
+				<img class="lazyOwl" alt="name" src="image/b4.jpg" style="display: block;">
+			</div>
+			</div>
+			<div class="owl-item" style="width: 220px;">
+			<div class="item">
+				<img class="lazyOwl" alt="name" src="image/b5.jpg" style="display: block;">
+			</div>
+			</div>
+			<div class="owl-item" style="width: 220px;">
+			<div class="item">
+				<img class="lazyOwl" alt="name" src="image/b6.jpg" style="display: block;">
+			</div>
+			</div>
+			<div class="owl-item" style="width: 220px;">
+			<div class="item">
+				<img class="lazyOwl" alt="name" src="image/b7.jpg" style="display: block;">
+			</div>
+			</div>
+			<div class="owl-item" style="width: 220px;">
+			<div class="item">
+				<img class="lazyOwl" alt="name" src="image/b1.jpg" style="display: block;">
+			</div>
+			</div>
+			<div class="owl-item" style="width: 220px;">
+			<div class="item">
+				<img class="lazyOwl" alt="name" src="image/b2.jpg" style="display: block;">
+			</div>
+			</div>
+			<div class="owl-item" style="width: 220px;">
+			<div class="item">
+				<img class="lazyOwl" alt="name" src="image/b3.jpg" style="display: block;">
+			</div>
+			</div>
+			</div>
+			</div>		
+		</div>
+		<!--//sreen-gallery-cursual---->
+		</div>
+		
+		
+		
+		
+		
+		<div class="content">
+		<!--about-->
+		<div class="about-section">
+			<div class="container">
+				<h3>about us</h3>
+					<img src="image/p1.jpg" class="img-responsive" alt="/">
+					<p>Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi.</p>
+			</div>
+		</div>
+		<!--about-->
+		
+		
+		
+		
+		<!--why-choose-->
+		<div class="why-choose">
+					<div class="container">
+						<h3>Why Choose Us ?</h3>
+						<div class="choose-grids">
+							<div class="col-md-4 choose-grid">
+							<h4>1. Vestibulum iaculis</h4>
+						 <p>Mauris asan nulla vel diam. Sed in lacus ut enim adipiscing aliquetulla venenat pede mi, aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim.</p>
+
+							</div>
+							<div class="col-md-4 choose-grid">
+							<h4>2. Mauris asan nulla</h4>
+						 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing ellente ssed dololiquam congu fermentum nisl. Mauris asan nulla vel diam. Sed in lacus ut enim adipiscing aliquetulla venenat pede mi, aliquet sit amet, euismod in, auctor ut.</p>
+
+							</div>
+							<div class="col-md-4 choose-grid">
+							<h4>3. faucibus risus</h4>
+						 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing ellente ssed dololiquam congu fermentum nisl. Mauris asan nulla vel diam. Sed in lacus ut enim adipiscing aliquetulla venenat pede mi, aliquet sit amet, euismod in, auctor ut.</p>
+
+							</div>
+							<div class="clearfix"></div>
+							</div>
+						</div>	
+					</div>
+			<!--why-choose-->
+			<div class="ourteam">
+					<div class="container">
+						<h3>our team</h3>
+						<div class="team-grids">
+						<div class="col-md-3 team-grid">
+							<img src="image/t1.jpg" class="img-responsive" alt="">
+							<h4>Bradley Grosh</h4>
+							<p>Were dolor in hendrerit in vulputate velit esse molestie con sequat</p>
+						</div>
+						<div class="col-md-3 team-grid">
+							<img src="image/t2.jpg" class="img-responsive" alt="">
+							<h4>david austin</h4>
+							<p>Were dolor in hendrerit in vulputate velit esse molestie con sequat</p>
+						</div>
+						<div class="col-md-3 team-grid">
+							<img src="image/t3.jpg" class="img-responsive" alt="">
+							<h4>Patrick Pool</h4>
+							<p>Were dolor in hendrerit in vulputate velit esse molestie con sequat</p>
+						</div>
+						<div class="col-md-3 team-grid">
+							<img src="image/t4.jpg" class="img-responsive" alt="">
+							<h4>Dayle Peters</h4>
+							<p>Were dolor in hendrerit in vulputate velit esse molestie con sequat</p>
+						</div>
+					<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+			<!--advantage-->
+
+	<div class="specials-section">
+			<div class="container">
+			<div class="specials-grids">
+			<div class="col-md-3 specials">
+				<h3>about</h3>
+				<p>Morbi pretium gravida justo nec ultrices. Ut et facilisis justo. Fusce ac turpis eros, vel molestie lectus.feugiat velit velit non turpis</p>
+				</div>
+				<div class="col-md-3 specials1">
+				<h3>expert</h3>
+				<ul>
+					<li><a>New Listing Sign-Up</a></li>
+					<li><a>Consectetur adipiscing</a></li>
+					<li><a>Integer molestie lorem</a></li>
+					<li><a>Facilisis in pretium nisl</a></li>
+				</ul>
+				</div>
+			<div class="col-md-3 specials1">
+			<h3>contact</h3>
+			<address>
+				<p>The Company Name Inc.</p>
+				<p>Glasgow,Le 99 Pr 45.</p>
+				<p>Telephone: +1 800 603 6035</p>
+				<p>FAX: +1 800 889 9898</p>
+				<p>E-mail: <a href="mailto:example@mail.com">example@mail.com</a></p>
+			</address>
+			</div>
+			<div class="col-md-3 specials1">
+			<h3>social</h3>
+			<ul>
+				<li><a> facebook</a></li>
+				<li><a >twitter</a></li>
+				<li><a>Pinterest</a></li>
+				<li><a>Vimeo</a></li>
+			</ul>
+			</div>
+			<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+</div>
+		<div class="footer-section">
+		<!-- 页脚部分 -->
+						<div class="container">
+							<div class="footer-top">
+						<p>Copyright © 2015.Company name All rights reserved.<a target="_blank" href="http://www.17sucai.com/">网页模板</a></p>
+						</div>
+
+			<script type="text/javascript">
+						$(document).ready(function() {
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+<!-- 
+				<a href="http://www.maindek.cc/study_list/holiday/fashion/about.html#" id="toTop" style="display: none;">
+				<span id="toTopHover"></span> 
+				<span id="toTopHover" style="opacity: 1;"> </span>
+				</a> -->
+				</div>
+	</div>
+<!-- 回到顶部的代码 -->
+<!-- <a href="http://www.maindek.cc/study_list/holiday/fashion/about.html#" id="toTop">To Top</a> -->
+
+
+</body>
+</html>
